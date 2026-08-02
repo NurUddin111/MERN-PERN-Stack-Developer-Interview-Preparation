@@ -1,4 +1,6 @@
-01.	What is React?
+# REACT QUESTIONS
+
+* 01. What is React *
 
 React is an open-source JavaScript library developed by Facebook for building fast, interactive, and reusable user interfaces, especially for single-page applications. It uses a component-based architecture, which allows developers to build reusable UI components. React also uses a Virtual DOM to efficiently update the user interface, improving performance and providing a better user experience.
 Key Points
