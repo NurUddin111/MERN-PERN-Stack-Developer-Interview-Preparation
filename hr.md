@@ -23,7 +23,7 @@ I've built several real-world projects where I implemented authentication, API i
 
 I may not have industry experience yet, I still have a lot to learn, but I enjoy learning new technologies, write clean and maintainable code and taking ownership of my work.I'm eager to learn from experienced developers and grow as a developer while delivering value to the company.
 
-_Backend Developer Version_
+**Backend Developer Version**
 
 You should hire me because I have a strong interest in backend development and enjoy solving problems related to APIs, databases, and application architecture.
 
