@@ -8,14 +8,14 @@ I'm passionate about solving real-world problems and continuously improving my s
 
 ## 02. Why do you want to join Bitbyte?
 
-There are three a few reasons why I want to join Bitbyte.
+There are a few reasons why I want to join Bitbyte.
 First, Bitbyte works on real-world software products, and I believe working on real projects is the best way to improve as a developer.
 Second, as someone at the beginning of my career, I want to learn from experienced developers, receive constructive feedback, and grow in a professional development environment.
 Finally, after reviewing the job description, I found that the technologies and skills you're looking for—such as React, JavaScript, Tailwind CSS, responsive design, and Git—are closely aligned with what I've been learning and using in my projects. I believe this role is a great opportunity for me to contribute while continuing to grow as a developer.
 
 ## 03. Why should we hire you?
 
-_Frontend Developer Version_
+- Frontend Developer Version
 
 I believe you should hire me because I have a solid foundation in modern frontend development with React, Next.js, TypeScript, and Tailwind CSS. I enjoy building responsive, user-friendly interfaces and turning designs into clean, maintainable code.
 
@@ -23,7 +23,7 @@ I've built several real-world projects where I implemented authentication, API i
 
 I may not have industry experience yet, I still have a lot to learn, but I enjoy learning new technologies, write clean and maintainable code and taking ownership of my work.I'm eager to learn from experienced developers and grow as a developer while delivering value to the company.
 
-**Backend Developer Version**
+- Backend Developer Version
 
 You should hire me because I have a strong interest in backend development and enjoy solving problems related to APIs, databases, and application architecture.
 
@@ -31,7 +31,7 @@ I've built backend systems using Node.js, Express.js, TypeScript, PostgreSQL, Pr
 
 I may not have industry experience yet, I still have a lot to learn, but I enjoy learning new technologies, write clean and maintainable code and taking ownership of my work.I'm eager to learn from experienced developers and grow as a developer while delivering value to the company.
 
-_Full Stack Developer Version_
+- Full Stack Developer Version
 
 You should hire me because I can contribute across both frontend and backend development. I work with React, Next.js, TypeScript, Tailwind CSS, Node.js, Express.js, PostgreSQL, Prisma, and MongoDB to build complete web applications.
 
@@ -74,3 +74,11 @@ I'm looking forward to working in a professional team where I can learn from exp
 
 What qualities do you think make someone successful in this role?
 "Yes, thank you. I'd like to know what a typical day looks like for a Junior Frontend Developer at Bitbyte.
+
+## 11. Why did you choose web development as a career?
+
+I chose web development because I love building things that solve real problems. Every project starts with an idea, and through code, I can turn that idea into something people can actually use.
+
+What excites me most is that web development is always evolving, so there's always something new to learn. I enjoy that challenge because it keeps me growing as a developer.
+
+While I don't have professional experience yet, I've spent my time building real-world projects, learning modern technologies, and improving my skills every day. That's why I'm confident this is the career I want to build.
