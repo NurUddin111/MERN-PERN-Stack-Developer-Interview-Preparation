@@ -1,3 +1,5 @@
+# JAVASCRIPT QUESTIONS : Variables, Data Types, Functions & Scope
+
 ## Q1. What is the difference between var, let, and const in JavaScript?
 
 var, let, and const are all used to declare variables in JavaScript. The main difference is their scope and mutability. var is function-scoped and allows both redeclaration and reassignment, which can lead to bugs. let is block-scoped, allows reassignment but not redeclaration. const is also block-scoped, but it cannot be reassigned after initialization. For objects and arrays declared with const, their properties or elements can still be modified. In modern JavaScript, it's recommended to use const by default and let only when reassignment is needed. var is generally avoided in modern code
@@ -40,16 +42,56 @@ const sayHello = function () {
 };
 ```
 
-Q3. What are the primitive data types in JavaScript?
-Q4. What is the difference between == and === in JavaScript?
-Q5. Explain how closures work in JavaScript with an example.
-Q6. What is the difference between null and undefined?
-Q7. What are arrow functions and how do they differ from regular functions?
-Q8. What is the scope chain in JavaScript?
-Q9. Explain the concept of the temporal dead zone.
-Q10. What is a pure function? Give an example.
-Q11. What is the difference between function declaration and function expression?
-Q12. What are default parameters in JavaScript?
-Q13. What is the typeof operator and what are its possible return values?
-Q14. Explain type coercion in JavaScript with examples.
-Q15. What is an immediately invoked function expression (IIFE)?
+## Q3. What is the Temporal Dead Zone (TDZ)?
+
+The Temporal Dead Zone (TDZ) is the period between entering a scope and the point where a let or const variable is declared.
+During this time, the variable exists but cannot be accessed.
+
+```
+{
+    // TDZ starts
+
+    console.log(name); // ReferenceError
+
+    let name = "Nur";
+
+    // TDZ ends
+}
+```
+
+## Q4. Is there any difference between let and const regarding hoisting?
+
+Actually there is no difference between them regarding hoisting. Both let and const are hoisted, but unlike var, they remain in the Temporal Dead Zone until their declaration is reached. The difference is not in hoisting—it's that const must be initialized when declared and cannot be reassigned, while let can be declared first and assigned later.
+
+## Q5. What are primitive data types in JavaScript?
+
+In JavaScript, data types are divided into two categories: primitive and non-primitive.Primitive data type is the most basic type of data in JavaScript. It stores a single value directly and is immutable, meaning the value itself cannot be changed.
+When we copy a primitive value, JavaScript creates a new independent copy.
+
+Primitive values are:
+
+Stored by value, not by reference.
+Immutable (the value itself cannot be modified).
+Compared by their actual value.
+
+```
+let a = 10;
+let b = a;
+
+b = 20;
+
+console.log(a); // 10
+console.log(b); // 20
+
+Changing b does not affect a because primitive values are copied.
+```
+
+JavaScript has 7 primitive data types:
+
+- String – Represents text.
+- Number – Represents integers and floating-point numbers.
+- Boolean – Represents true or false.
+- Undefined – A variable that has been declared but not assigned a value.
+- Null – Represents the intentional absence of a value.
+- Symbol – Represents a unique and immutable identifier.
+- BigInt – Represents integers larger than the safe limit of the Number type.
