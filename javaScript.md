@@ -8,3 +8,8 @@ Q7. What are arrow functions and how do they differ from regular functions?
 Q8. What is the scope chain in JavaScript?
 Q9. Explain the concept of the temporal dead zone.
 Q10. What is a pure function? Give an example.
+Q11. What is the difference between function declaration and function expression?
+Q12. What are default parameters in JavaScript?
+Q13. What is the typeof operator and what are its possible return values?
+Q14. Explain type coercion in JavaScript with examples.
+Q15. What is an immediately invoked function expression (IIFE)?
