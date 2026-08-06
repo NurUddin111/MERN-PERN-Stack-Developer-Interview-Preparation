@@ -116,3 +116,30 @@ The == operator is called loose equality. It compares values after performing ty
 ## Q10. What is type coercion?
 
 Type coercion is JavaScript's automatic conversion of one data type to another during an operation.
+
+## Q11. What are Closures? Explain how closures work in JavaScript with an example.
+
+A closure is a function that remembers the variables from its outer function, even after the outer function has finished executing. This allows the inner function to access and use those variables later. For example, if an outer function creates a count variable and returns an inner function, the inner function can continue updating count every time it's called. Closures are commonly used to maintain state and create private variables.
+
+```
+function outer() {
+    let count = 0;
+
+    function inner() {
+        count++;
+        console.log(count);
+    }
+
+    return inner;
+}
+
+const counter = outer();
+
+counter(); // 1
+counter(); // 2
+counter(); // 3
+```
+
+## Q12. Why do closures work?
+
+Closures work because JavaScript uses lexical scoping. A function remembers the scope in which it was defined, not where it is called.
