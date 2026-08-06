@@ -143,3 +143,22 @@ counter(); // 3
 ## Q12. Why do closures work?
 
 Closures work because JavaScript uses lexical scoping. A function remembers the scope in which it was defined, not where it is called.
+
+## Q13. What is lexical scope?
+
+Lexical scope means that a function can access its own variables, variables from its parent (outer) function and global variables.
+
+```
+const language = "JavaScript";
+
+function outer() {
+    const name = "Nur";
+
+    function inner() {
+        console.log(name);      // From outer scope
+        console.log(language);  // From global scope
+    }
+
+    inner();
+}
+```
