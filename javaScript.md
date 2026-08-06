@@ -103,3 +103,16 @@ Non-primitive data types are also called reference types because they store a re
 ## Q7. Is an array an object?
 
 Yes. In JavaScript, an array is a special type of object.
+
+## Q8. Is a function an object?
+
+Yes. Functions are special objects in JavaScript because they can be assigned to variables, passed as arguments, returned from other functions, and even have their own properties.
+
+## Q9. What is the difference between == and === in JavaScript?
+
+Both == and === are comparison operators in JavaScript, but they compare values differently.
+The == operator is called loose equality. It compares values after performing type conversion if the data types are different. The === operator is called strict equality. It compares both the value and the data type without any type conversion. For example, 5 == '5' returns true because the string is converted to a number, but 5 === '5' returns false because their data types are different. In modern JavaScript, === is generally preferred because it avoids unexpected behavior caused by automatic type conversion.
+
+## Q10. What is type coercion?
+
+Type coercion is JavaScript's automatic conversion of one data type to another during an operation.
