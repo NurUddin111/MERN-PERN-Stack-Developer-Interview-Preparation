@@ -95,3 +95,11 @@ JavaScript has 7 primitive data types:
 - Null – Represents the intentional absence of a value.
 - Symbol – Represents a unique and immutable identifier.
 - BigInt – Represents integers larger than the safe limit of the Number type.
+
+## Q6. What are the non-primitive data types in JavaScript?
+
+Non-primitive data types are also called reference types because they store a reference to a memory location instead of the actual value. The main non-primitive types in JavaScript are objects, arrays, and functions. Built-in types like Date, Map, Set, and RegExp are also objects, so they are non-primitive. Unlike primitive values, non-primitive values are mutable, and when copied, both variables refer to the same object in memory.
+
+## Q7. Is an array an object?
+
+Yes. In JavaScript, an array is a special type of object.
