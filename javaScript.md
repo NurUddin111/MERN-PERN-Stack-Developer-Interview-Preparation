@@ -162,3 +162,39 @@ function outer() {
     inner();
 }
 ```
+
+## Q14. What is the difference between null and undefined?
+
+Both null and undefined represent the absence of a value, but they are used in different situations.undefined means a variable has been declared but hasn't been assigned a value yet. null, on the other hand, is a value that the programmer intentionally assigns to represent the absence of a value. For example, a newly declared variable is undefined, while setting a variable to null means you intentionally want it to have no value.
+
+## Q15. What are arrow functions and how do they differ from regular functions?
+
+Arrow functions are a shorter syntax for writing functions in JavaScript, introduced in ES6. They make code more concise and are commonly used for callbacks and array methods. The main difference is that regular functions have their own this, while arrow functions inherit this from the surrounding scope. Also, arrow functions cannot be used as constructors with the new keyword
+
+## Q16. What is the Scope Chain in JavaScript?
+
+The scope chain is the mechanism JavaScript uses to find variables. When a variable is accessed, JavaScript first looks in the current scope. If it's not found, it searches the parent scope, then the global scope. If the variable doesn't exist in any scope, JavaScript throws a ReferenceError. This allows inner functions to access variables from their outer functions.
+
+## Q17. Explain the concept of the temporal dead zone.
+
+The Temporal Dead Zone, or TDZ, is the period between entering a scope and declaring a let or const variable. During this time, the variable cannot be accessed, even though it has been hoisted. Trying to access it before its declaration results in a ReferenceError. The TDZ helps prevent bugs caused by using variables before they are initialized.
+
+## Q18. What is a Pure Function? Give an example.
+
+A pure function is a function that always returns the same output for the same input and doesn't modify or depend on any external data. For example, an add(a, b) function is pure because it always returns the same result for the same inputs. Pure functions are easier to test, debug, and maintain.
+
+## Q19. What is the difference between function declaration and function expression?
+
+A function declaration defines a named function using the function keyword and is fully hoisted, so it can be called before its declaration. A function expression stores a function inside a variable. It is not fully hoisted, so it must be declared before it is called. The main difference between them is their hoisting behavior.
+
+## Q20. What are default parameters in JavaScript?
+
+Default parameters allow us to assign default values to function parameters. If an argument is not provided, or if undefined is passed, JavaScript uses the default value instead. This makes functions more flexible and helps avoid undefined values.
+
+## Q21. What is the typeof operator and what are its possible return values?
+
+The typeof operator is used to determine the data type of a value or variable. It returns the type as a string, such as 'string', 'number', 'boolean', or 'object'. One important exception is that typeof null returns 'object', which is a historical bug in JavaScript. Also, arrays return 'object', while functions return 'function'.
+
+## Q22. What is an immediately invoked function expression (IIFE)?
+
+An Immediately Invoked Function Expression, or IIFE, is a function that executes immediately after it is defined. It is created by wrapping the function in parentheses and then adding another pair of parentheses to invoke it. IIFEs are commonly used to create a private scope and prevent variables from polluting the global scope.
