@@ -198,3 +198,20 @@ The typeof operator is used to determine the data type of a value or variable. I
 ## Q22. What is an immediately invoked function expression (IIFE)?
 
 An Immediately Invoked Function Expression, or IIFE, is a function that executes immediately after it is defined. It is created by wrapping the function in parentheses and then adding another pair of parentheses to invoke it. IIFEs are commonly used to create a private scope and prevent variables from polluting the global scope.
+
+
+Q16. What is destructuring in JavaScript? Explain with array and object examples.
+Q17. What are the spread and rest operators and how are they used?
+Q18. Explain the difference between map(), filter(), and reduce().
+Q19. What is the difference between for...in and for...of loops?
+Q20. What are template literals and tagged templates?
+Q21. What is the event loop in JavaScript?
+Q22. Explain how Promises work in JavaScript.
+Q23. What is async/await and how does it improve upon Promises?
+Q24. What is the difference between call(), apply(), and bind()?
+Q25. What is prototypal inheritance in JavaScript?
+Q26. Explain the concept of this keyword in different contexts.
+Q27. What are JavaScript modules (import/export)?
+Q28. What is the difference between shallow copy and deep copy of objects?
+Q29. What are WeakMap and WeakSet and when would you use them?
+Q30. Explain the concept of memoization with an example. 
